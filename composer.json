@@ -1,0 +1,28 @@
+{
+    "name": "spec-doc/element-contracts",
+    "type": "library",
+    "description": "A set of abstractions interfaces of document elements for a specification",
+    "license": "MIT",
+    "keywords": ["abstractions", "contracts", "interfaces", "specification", "document", "element"],
+    "homepage": "https://github.com/spec-doc",
+    "support": {
+        "issues": "https://github.com/spec-doc/specificator/issues",
+        "source": "https://github.com/spec-doc/element-contracts"
+    },
+    "authors": [
+        {
+            "name": "Ivan Mezinov",
+            "email": "ivanmezinov@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SpecDoc\\Specificator\\Contracts\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
